@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T01:55:32.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="TBLNTiLGYDZUirRqBlQR" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-21T02:12:25.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="5-d3Cg8QsAfb95ZzWx0R" version="16.4.3" type="github">
   <diagram id="PgW4nPpEC8x0lyethXMX" name="Page-1">
-    <mxGraphModel dx="2673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2413" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HXhFRCqjD4kQxeXYWOiK-1" value="Companies" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-555" y="560" width="175" height="80" as="geometry" />
+          <mxGeometry x="-537.5" y="562.5" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HXhFRCqjD4kQxeXYWOiK-2" value="Vaccine lots" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="290" width="90" height="40" as="geometry" />
@@ -109,7 +109,7 @@
         <mxCell id="HXhFRCqjD4kQxeXYWOiK-57" value="produce vaccines in" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-780" y="530" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="HXhFRCqjD4kQxeXYWOiK-60" value="receive shipments from" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HXhFRCqjD4kQxeXYWOiK-60" value="Ship tp" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="260" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HXhFRCqjD4kQxeXYWOiK-63" value="receive vaccinations through" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -199,7 +199,7 @@
             <mxPoint x="370" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0wEwz3gsbH0lIXhT5vUy-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HXhFRCqjD4kQxeXYWOiK-57" target="HXhFRCqjD4kQxeXYWOiK-1">
+        <mxCell id="0wEwz3gsbH0lIXhT5vUy-25" value="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HXhFRCqjD4kQxeXYWOiK-57" target="HXhFRCqjD4kQxeXYWOiK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-800" y="650" as="sourcePoint" />
             <mxPoint x="-750" y="600" as="targetPoint" />
@@ -307,13 +307,18 @@
             <mxPoint x="210" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0wEwz3gsbH0lIXhT5vUy-98" value="M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0wEwz3gsbH0lIXhT5vUy-42">
+          <mxGeometry x="0.0705" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0wEwz3gsbH0lIXhT5vUy-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HXhFRCqjD4kQxeXYWOiK-60" target="HXhFRCqjD4kQxeXYWOiK-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="630" as="sourcePoint" />
             <mxPoint x="210" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0wEwz3gsbH0lIXhT5vUy-44" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HXhFRCqjD4kQxeXYWOiK-2">
+        <mxCell id="0wEwz3gsbH0lIXhT5vUy-44" value="M" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HXhFRCqjD4kQxeXYWOiK-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="360" as="sourcePoint" />
             <mxPoint x="90" y="310" as="targetPoint" />
